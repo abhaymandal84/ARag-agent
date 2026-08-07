@@ -1,0 +1,5 @@
+The video appears to be about a specific type of AI agent, which are reactive and wait for human input before functioning. The video seems to explain how these agents work.
+
+If you'd like to know more about this, let's take a closer look at one of the key moments in the video. Around 1 minute and 40 seconds into the video (starting from the beginning), we see that the AI agents are described as waiting for human input without being checked every time they make a move.
+
+Would you like me to guide you to this timestamp?

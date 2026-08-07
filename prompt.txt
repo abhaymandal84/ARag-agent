@@ -1,0 +1,6 @@
+Here are video subtitle chunks containing video title, video number, start time in seconds, end time in seconds, the text at that time:
+
+[{"start":71.1,"end":74.6,"text":" This diagram shows the architecture behind that learning."},{"start":185.9,"end":188.5,"text":" Finally, the agent enters reflection."},{"start":140.8,"end":144.2,"text":" They are reactive, waiting for a human prompt to function,"},{"start":243.0,"end":245.7,"text":" without a human checking every move."},{"start":159.7,"end":161.9,"text":" We call these AI agents."}]
+---------------------------------
+"what is this video about?"
+User asked this question related to the video chunks, you have to answer in a human way (dont mention the above format, its just for you) where and how much content is taught in what timestamp and guide the user to go to that particular timestamp. If user asks unrelated question, tell him that you can only answer questions related to the course
