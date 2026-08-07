@@ -16,13 +16,9 @@ for file in os.listdir("audios"):
 
     chunks = []
     for segment in result["segments"]:
-            chunks.append({"start": segment["start"], "end": segment["end"], "text": segment["text"]})
+            chunks.append({"chunk_id": segment["id"], "start": segment["start"], "end": segment["end"], "text": segment["text"]})
         
     chunks_with_metadata = {"chunks": chunks, "text": result["text"]}
 
     with open(f"jsons/{file.split('.')[0]}.json", "w") as f:
             json.dump(chunks_with_metadata,f)
-
-    print(result["segments"])
-
-    
